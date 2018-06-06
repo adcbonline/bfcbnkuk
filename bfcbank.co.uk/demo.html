@@ -1,0 +1,581 @@
+<!doctype html>
+<html>
+
+<!-- /demo.html , Mon, 21 May 2018 07:25:54 GMT -->
+<!--  --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- / -->
+<head>
+<base >
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="">
+
+
+<!-- Latest compiled and minified JavaScript -->
+
+
+
+<link rel="stylesheet" href="assets/css/styles.css" >
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+
+
+<style>
+
+.requirementsBox{background:url(assets/images/BullonBlue.jpg) #242f75 no-repeat 92% 9px; ;width:100%;padding:10px 20px;}
+.requirementsBox h4{font-size:24px;color:#40c8f4;font-weight:bold;}
+.requirementsBox a{font-size:15px;color:#fff;}
+
+</style>
+
+
+
+
+
+<title>
+BFC Bank | Demo</title>
+</head>
+
+<body>
+<header>
+
+<nav class="navbar navbar-fixed-top">
+<div class="topbar"> 
+
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+
+        <div class="col-md-3">
+        <div class="topbar-links"><a href="index.html" style="margin-top:0px;"><img src="assets/images/BlueIcons_Home.png" alt="Home Button"/></a></div>
+        </div>
+
+        <div class="col-md-5">
+        <div class="topbar-links">
+        <img src="assets/images/BlueIcons_Phone.png" alt="Home Button"/> <span class="visible-lg">+44 (0)208 181 3700</span>
+        </div>
+        <div class="topbar-links">
+         <a href="mailto:info@bfcbank.co.uk" ><img src="assets/images/BlueIcons_Email.png" alt="Home Button"/></a> <a href="mailto:info@bfcbank.co.uk" class="visible-lg">info@bfcbank.co.uk</a>
+        </div>
+        </div>
+
+        <div class="col-md-4">  <div class="topbar-links push-right">
+         <a data-fancybox="modal" data-src="#modal" href="javascript:;" class="visible-lg">Log in</a> <a data-fancybox="modal" data-src="#modal" href="javascript:;"><img src="assets/images/BlueIcons_Log%20in.png" alt="Home Button"/> </a>
+        </div>
+        <div class="topbar-links push-right">
+         <a href="register-for-an-account.html" class="visible-lg">Apply for account</a> <a href="register-for-an-account.html"><img src="assets/images/BlueIcons_Accountlisticonv2.png" alt="Apply for account"/></a>
+        </div>
+        </div>
+
+       </div>
+</div>
+
+</div>
+<div>
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"> <img src="assets/images/logo.png" class="logo" alt="BFC Bank Logo"/> </a>
+        
+        <div id="navbar" class="navbar-collapse collapse">
+    <div class="search">
+<form class="sisea-search-form" action="" method="get">
+
+
+    <input type="text" name="search" id="search" placeholder="search..." />
+    <input type="hidden" name="id" value="55" /> 
+
+<input class="submit" value=" " type="submit">
+</form>
+
+</div>
+
+<!-- outerTpl -->
+<ul>
+<li  class="dropdown first">
+
+<a href="bfc-bank-services.html" title="BFC Bank services"  class="dropdown-toggle disabled" data-toggle="dropdown">BFC Bank services</a>
+<ul class="dropdown-menu">
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="payments.html" class="dropdown-toggle disabled" data-toggle="dropdown">Payments</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="multi-currency-accounts.html" class="dropdown-toggle disabled" data-toggle="dropdown">Multi-currency accounts</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="term-deposit.html" class="dropdown-toggle disabled" data-toggle="dropdown">Deposits</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="overdrafts.html" class="dropdown-toggle disabled" data-toggle="dropdown">Overdrafts & loans</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="foreign-exchange.html" class="dropdown-toggle disabled" data-toggle="dropdown">Foreign exchange</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="bfc-bank-rates-and-charges.html" class="dropdown-toggle disabled" data-toggle="dropdown">Rates & charges</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="wholesale-currency-options.html" class="dropdown-toggle disabled" data-toggle="dropdown">Wholesale currency services</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="fixed-term-deposits.html" class="dropdown-toggle disabled" data-toggle="dropdown">Fixed Term Deposits - Launch Offer</a></li>
+
+</ul>
+</li>
+<li  class="dropdown">
+
+<a href="working-with-smes/index.html" title="Working with SMEs"  class="dropdown-toggle disabled" data-toggle="dropdown">Working with SMEs</a>
+<ul class="dropdown-menu">
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="payment-services.html" class="dropdown-toggle disabled" data-toggle="dropdown">Payment services</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="sme-trends.html" class="dropdown-toggle disabled" data-toggle="dropdown">SME trends </a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="helping-smes-grow.html" class="dropdown-toggle disabled" data-toggle="dropdown">Helping SMEs grow </a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="transparent-fees.html" class="dropdown-toggle disabled" data-toggle="dropdown">Transparent fees</a></li>
+
+</ul>
+</li>
+<li  class="dropdown">
+
+<a href="working-with-psps.html" title="Working with PSPs"  class="dropdown-toggle disabled" data-toggle="dropdown">Working with PSPs</a>
+<ul class="dropdown-menu">
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="psp-payment-services.html" class="dropdown-toggle disabled" data-toggle="dropdown">Payment services</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="challenges-for-psps.html" class="dropdown-toggle disabled" data-toggle="dropdown">New banking approach for PSPs</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="how-bfc-bank-helps-psps.html" class="dropdown-toggle disabled" data-toggle="dropdown">How we help PSPs</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="committed-to-compliance.html" class="dropdown-toggle disabled" data-toggle="dropdown">Committed to compliance</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="working-with-psps-transparent-fees.html" class="dropdown-toggle disabled" data-toggle="dropdown">Cost-effective services for PSPs</a></li>
+
+</ul>
+</li>
+<li  class="dropdown">
+
+<a href="about-us/index.html" title="About us"  class="dropdown-toggle disabled" data-toggle="dropdown">About us</a>
+<ul class="dropdown-menu">
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="bfc-bank.html" class="dropdown-toggle disabled" data-toggle="dropdown">BFC Bank</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="meet-the-team.html" class="dropdown-toggle disabled" data-toggle="dropdown">Meet the team</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="who-we-are-group-and-history.html" class="dropdown-toggle disabled" data-toggle="dropdown">Who we are - group & history</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="our-values.html" class="dropdown-toggle disabled" data-toggle="dropdown">Our values</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="bfc-banks-official-launch.html" class="dropdown-toggle disabled" data-toggle="dropdown">BFC Bank Launch Event</a></li>
+
+</ul>
+</li>
+<li  class="dropdown active">
+
+<a href="online-banking.html" title="Online banking"  class="dropdown-toggle disabled" data-toggle="dropdown">Online banking</a>
+<ul class="dropdown-menu">
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="technology.html" class="dropdown-toggle disabled" data-toggle="dropdown">Technology</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="demo.html" class="dropdown-toggle disabled" data-toggle="dropdown">Demo</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="online-portal-access.html" class="dropdown-toggle disabled" data-toggle="dropdown">Online portal access</a></li>
+
+</ul>
+</li>
+<li  class="dropdown last">
+
+<a href="contact-us.html" title="Contact us"  class="dropdown-toggle disabled" data-toggle="dropdown">Contact us</a>
+<ul class="dropdown-menu">
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="account-support.html" class="dropdown-toggle disabled" data-toggle="dropdown">Account support</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="customer-services.html" class="dropdown-toggle disabled" data-toggle="dropdown">Customer services</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="complaints.html" class="dropdown-toggle disabled" data-toggle="dropdown">Complaints</a></li>
+
+</ul>
+</li>
+
+</ul>
+
+
+
+        </div><!--/.navbar-collapse -->
+      </div></div></div>
+</nav>
+</header>
+
+<div class="container">
+      <div class="row">
+        <div class="col-md-8 padding-no">
+       <div class="background banner" style="background-image:url(assets/images/DemoCH1.jpg);">
+                  
+          <p class="note">Demonstration</p>
+          
+        </div>
+</div>
+        <div class="col-md-4 padding-left-no">
+<div class="banner-right-box">
+<h4>Welcome to BFC Bank's online features</h4>
+<p>We have prepared a short guide to help you find your way around BFC Bank's online banking features. Simply click on the title bars below to view selected screens and information about how to use them.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+        <div class="container">
+      <div class="row">
+
+
+      <p><div class="acc-head">
+<h3><strong><a class="collapsed" data-toggle="collapse" data-target="#your-login-page">Your LOGIN page <span>More information </span></a></strong></h3>
+</div>
+
+<div id="your-login-page" class="collapse">
+<h3>Your LOGIN page</h3>
+<p>Enter your User ID and password to gain access to your BFC Bank online portal.</p>
+<img width="400px" src="assets/images/demo/Screen1-loginpage.jpg" alt="Online banking homepage" />
+<!--<img class="section-img" src="">
+<h2></h2>
+<p></p>-->
+
+</div>
+
+
+
+<div class="acc-head">
+<h3><strong><a class="collapsed" data-toggle="collapse" data-target="#client-summary">Client summary <span>More information </span></a></strong></h3>
+</div>
+
+<div id="client-summary" class="collapse">
+<h3>Client summary</h3>
+<p>From here you can instantly view a summary of your account.</p>
+<p>The drop down menu gives you instant access to your additional client accounts. <br />You can view a summary of your accounts, starting with the high level balances.</p>
+<p>You can click on the account to see the transactions.</p>
+<p><img class="section-img" src="assets/images/demo/Screen2-summarypage.jpg" alt="Client Summary" /></p>
+<p>You can view recent transactions and then click again for details of each transaction.</p>
+<p><img class="section-img" src="assets/images/demo/Screen2a-summarypage.jpg" alt="Client Summary" /></p>
+<p>You can click selected transactions to view the payment process details.</p>
+<p><img class="section-img" src="assets/images/demo/Screen2b-summarypage.jpg" alt="Client Summary" /></p>
+<!--<img class="section-img" src="">
+<h2></h2>
+<p></p>-->
+
+</div>
+
+
+
+<div class="acc-head">
+<h3><strong><a class="collapsed" data-toggle="collapse" data-target="#administration-options">Administration options <span>More information </span></a></strong></h3>
+</div>
+
+<div id="administration-options" class="collapse">
+<h3>Administration options</h3>
+<p>Select the Administration option from the side menu to view addresses, your credit limits and set permissions. You can also change your password from this menu.</p>
+<img class="section-img" src="assets/images/demo/Screen3-adminoptions.jpg" alt="Client Addresses" />
+<h3>Client addresses</h3>
+<p>Select Client addresses to see the address. To edit or change the address you need to contact your relationship manager.</p>
+<img class="section-img" src="assets/images/demo/Screen3a-clientaddresses.jpg" alt="Client Addresses" />
+<h3>Client credit limits</h3>
+<p>Select Credit limits to view the client granted limits. To change the client limits you need to contact your relationship manager.</p>
+<img class="section-img" src="assets/images/demo/Screen3b-clientlimits.jpg" alt="Client Addresses" />
+<h3>Permissions</h3>
+<p>Select Permissions to see the permissions granted to each user. Choose the user you want to view from the drop down menu. You can add and edit permission status, levels and access rights from this screen.</p>
+<img class="section-img" src="assets/images/demo/Screen3cc-permissions.jpg" alt="Client Addresses" />
+<p><br />This is the screen to use to set specific permissions and authorisation levels.</p>
+<img class="section-img" src="assets/images/demo/Screen3cc-permissions.jpg" alt="Client Addresses" />
+<h3>Change your password</h3>
+<p>It is quick and easy to change your password from the Change password screen.</p>
+<img class="section-img" src="assets/images/demo/screen3d-passwordchange.jpg" alt="Client Addresses" />
+<!--<img class="section-img" src="">
+<h2></h2>
+<p></p>-->
+
+</div>
+
+
+
+<div class="acc-head">
+<h3><strong><a class="collapsed" data-toggle="collapse" data-target="#account-list">Account list <span>More information </span></a></strong></h3>
+</div>
+
+<div id="account-list" class="collapse">
+<h3>Account list</h3>
+<p>Choose Accounts to view and perform a range of activities associated with your accounts. The screen can display all accounts, including those with zero balances, or only those with positive or negative balances. Account details are displayed in interactive rows, just like the earlier screens. You then click on the row to access specific account information. (view statement below).</p>
+<img class="section-img" src="assets/images/demo/screen4-accountslist.jpg" alt="Account List" /> <img class="section-img" src="assets/images/demo/Screen4-statements.jpg" alt="Account List" />
+<h3>Account Pooling</h3>
+<p>Select Account Pooling list to see a list of all accounts or just those with a zero balance.</p>
+<img class="section-img" src="assets/images/demo/Screen4b-accountpooling.jpg" alt="Account List" />
+<h3>Account Interest Conditions</h3>
+<p>You can instantly view both received and paid interest rates on the account you have selected by the drop down menu.</p>
+<img class="section-img" src="assets/images/demo/Screen4c-accountinterest.jpg" alt="Account List" />
+<h3>Transactions</h3>
+<p>Select Transactions from the Account menu to view all transactions within a certain time period. You can select the kind of transaction to view, and sort by value date or transaction date.</p>
+<img class="section-img" src="assets/images/demo/Screen4d-transactions.jpg" alt="Account List" />
+<p><br />As you can see from the screen below, you have the option to choose the date from a calendar.</p>
+<img class="section-img" src="assets/images/demo/screen4d-transactionscalendar.jpg" alt="Account List" />
+<!--<img class="section-img" src="">
+<h2></h2>
+<p></p>-->
+
+</div>
+
+
+
+<div class="acc-head">
+<h3><strong><a class="collapsed" data-toggle="collapse" data-target="#payments-demo">Payments <span>More information </span></a></strong></h3>
+</div>
+
+<div id="payments-demo" class="collapse">
+<h3>Payments</h3>
+<p>You can do a lot from this screen.<br /> You can search for payments by date, amount or currency.<br /> You can set a filter to see payments by status and select a beneficiary.<br /> You can set a filter to see payments by order type and select a beneficiary.<br />From here you can also add, amend and delete payments.</p>
+<p><img class="section-img" src="assets/images/demo/Screen5-payments.jpg" alt="Account Payment" /></p>
+<h3>Payment beneficiaries</h3>
+<p>From this screen you can view and control where you make payments to.<br /> You can view beneficiaries and amend and validate their status.</p>
+<img class="section-img" src="assets/images/demo/Screen5b-paymentbeneficiaries.jpg" alt="Account Payment" /> <img class="section-img" src="assets/images/demo/Screen5bb-paymentbeneficiaries.jpg" alt="Account Payment" />
+<h3>Manage beneficiaries</h3>
+<p>This screen allows to Add New Beneficiaries and copy (+) from an existing one.<br /> You can also delete a beneficiary.</p>
+<img class="section-img" src="assets/images/demo/Screen5c-managebeneficiaries.jpg" alt="Account Payment" />
+<!--<img class="section-img" src="">
+<h2></h2>
+<p></p>-->
+
+</div>
+
+
+
+<div class="acc-head">
+<h3><strong><a class="collapsed" data-toggle="collapse" data-target="#authorise-payments">Authorise payments <span>More information </span></a></strong></h3>
+</div>
+
+<div id="authorise-payments" class="collapse">
+<h3>Authorise payments</h3>
+<p>From the Authorise Payments menu, you can view a list of payments waiting to be authorised. It allows you to authorise, refuse or cancel payments.</p>
+<p><img class="section-img" src="assets/images/demo/Screen6a-payments-awaiting-authorisation.jpg" alt="Authorise Payments" /></p>
+<h3>Permissions</h3>
+<p>You can view a list of permissions and set the status of each. You can also edit permissions, and see a record of changes that have been made, when and who made them.</p>
+<img class="section-img" src="assets/images/demo/Screen6b-permissions.jpg" alt="Authorise Payments" /> <img class="section-img" src="assets/images/demo/Screen6b-permissionsedit.jpg" alt="Authorise Payments" />
+<!--<img class="section-img" src="">
+<h2></h2>
+<p></p>-->
+
+</div>
+
+
+
+<div class="acc-head">
+<h3><strong><a class="collapsed" data-toggle="collapse" data-target="#messages">Messages <span>More information </span></a></strong></h3>
+</div>
+
+<div id="messages" class="collapse">
+<h3>Messages</h3>
+<p>Your BFC Bank portal allows you to send and receive messages.<br /> Any messages you send are recorded in your Sent Messages folder.</p>
+<img class="section-img" src="assets/images/demo/Screen7a-messagesinbox.jpg" alt="Messages" /> <img class="section-img" src="assets/images/demo/Screen7b-messagessent.jpg" alt="Messages" />
+<!--<img class="section-img" src="">
+<h2></h2>
+<p></p>-->
+
+</div>
+
+
+<br /><br /></p>
+
+         
+         
+
+        
+        </div>
+
+
+    
+      </div>
+
+      </div>
+
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+      
+          
+      <div class="col-md-12 mid-menu">
+
+
+<!-- outerTpl -->
+<ul>
+<li  class="dropdown first">
+
+<a href="about-us/index.html" title="About us"  class="dropdown-toggle disabled" data-toggle="dropdown">About us</a>
+<ul class="dropdown-menu">
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="bfc-bank.html" class="dropdown-toggle disabled" data-toggle="dropdown">BFC Bank</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="meet-the-team.html" class="dropdown-toggle disabled" data-toggle="dropdown">Meet the team</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="who-we-are-group-and-history.html" class="dropdown-toggle disabled" data-toggle="dropdown">Who we are - group & history</a></li>
+
+</ul>
+</li>
+<li  class="dropdown">
+
+<a href="contact-us.html" title="Contact us"  class="dropdown-toggle disabled" data-toggle="dropdown">Contact us</a>
+<ul class="dropdown-menu">
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="customer-services.html" class="dropdown-toggle disabled" data-toggle="dropdown">Customer services</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="complaints.html" class="dropdown-toggle disabled" data-toggle="dropdown">Complaints</a></li>
+
+</ul>
+</li>
+<li  class="dropdown">
+
+<a href="help-centre.html" title="Help centre"  class="dropdown-toggle disabled" data-toggle="dropdown">Help centre</a>
+<ul class="dropdown-menu">
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="lost-or-stolen-token.html" class="dropdown-toggle disabled" data-toggle="dropdown">Lost or stolen token or forgotten password</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="fraud-prevention.html" class="dropdown-toggle disabled" data-toggle="dropdown">Fraud Prevention</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="how-to-guides.html" class="dropdown-toggle disabled" data-toggle="dropdown">How to guides</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="how-to-provide-compliance-information.html" class="dropdown-toggle disabled" data-toggle="dropdown">How to provide compliance information</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="accessibility-statement.html" class="dropdown-toggle disabled" data-toggle="dropdown">Accessibility statement</a></li>
+<!-- innerRowTpl -->
+<li  class="dropdown-submenu"><a href="q-and-a.html" class="dropdown-toggle disabled" data-toggle="dropdown">FAQs</a></li>
+
+</ul>
+</li>
+<li  class="dropdown last">
+
+<a href="newsroom.html" title="Newsroom"  class="dropdown-toggle disabled" data-toggle="dropdown">Newsroom</a>
+
+</li>
+
+</ul>
+             
+
+      
+      </div>
+</div>
+</div>
+
+
+
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+   
+       <div class="col-md-2 center footer-icon">
+<a href="technology.html"><div class="footer-icon-image">
+<img src="assets/images/secure.jpg" alt="Secure"/>
+</div>
+
+<strong>Banking technology and BFC Bank</strong>
+
+</div></a>
+
+       <div class="col-md-2 center footer-icon">
+<a href="overdrafts.html"><div class="footer-icon-image"><img src="assets/images/overdrafts.jpg" alt="Overdrafts"/></div>
+<div class="footer-icon-info">
+<strong>Overdrafts, <br/>short-term loans</strong>
+</div></a>
+</div>
+
+       <div class="col-md-2 center footer-icon">
+<a href="bfc-bank-services.html"><div class="footer-icon-image"><img src="assets/images/models.jpg" alt="New banking service models"/></div>
+<div class="footer-icon-info">
+<strong>New banking services for SMEs and PSPs</strong>
+</div></a>
+</div>
+
+       <div class="col-md-2 center footer-icon"><a href="transparent-fees.html"><div class="footer-icon-image"><img src="assets/images/transparent.jpg" alt="Transparent fees"/></div>
+<div class="footer-icon-info">
+<strong>Transparent fees - clarity at last for SMEs </strong>
+</div>
+</a>
+</div>
+
+       <div class="col-md-2 center footer-icon"><a href="multi-currency-accounts.html"><div class="footer-icon-image"><img src="assets/images/multi-currency.jpg" alt="Multi Currency"/></div>
+<strong>Multi-currency accounts with cross currency pooling</strong>
+</a>
+</div>
+
+       <div class="col-md-2 center footer-icon"><a href="4000-years-of-trading-history.html"><div class="footer-icon-image"><img src="assets/images/international-trade.jpg" alt="International Trade"/></div>
+<strong>Bahrain: 4,000 years of international trade</strong>
+</a>
+</div>
+
+        
+        </div>
+        
+       </div>
+       
+      
+    
+    
+    <div class="footer">
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+      
+      <div class="col-md-12"> <div class="footer-top">
+
+<p><span>CONTACT US:</span> General Enquiries: <a href="mailto:info@bfcbank.co.uk"> Email: info@bfcbank.co.uk</a> Press & Media Information:  <a href="mailto:PRenquiries@bfcbank.co.uk" target="_blank"> E mail: PRenquiries@bfcbank.co.uk</a>   T: +44 (0) 208 181 3700</p></div> </div>
+      
+
+             <div class="col-md-4 link">
+                 <div class="col-md-6"><img src="assets/images/logowhite.png" alt="White Logo" style="width:100%;"/></div>
+                 <div class="col-md-6 contact-details"><p>BFC Bank Limited, 
+9th Floor, South Quay Building, 
+189 Marsh Wall, London E14 9SH 
+ </p></div>
+               
+             </div>
+             <div class="col-md-2 link"><a href="contact-us.html">Contact details</a><br/><a href="site-map.html">Site map</a><br/><a href="assets/downloads/BFCBank-commercialbanking-terms-conditions.pdf" target="_blank">Terms & Conditions</a></div>
+             <div class="col-md-2 link"><a href="legal.html">Legal</a>
+<br/><a href="cookie-policy.html">Cookie policy </a><br/><a href="accessibility-statement.html">Accessibility </a>
+</div>
+             <div class="col-md-2 link"><a href="security.html">Security</a><br/><a href="privacy-policy.html">Privacy policy</a><br/><a href="associations.html">Associations</a><!--<br/><a --></div>
+
+             <div class="col-md-2 link last"> <a href="protecting-your-money.html"><img src="assets/images/fscs-cta.png" width="100%"/></a></div>
+      
+   <div class="col-md-12"  style="text-align:center;">
+<small style="color:#fff;text-align:center;">BFC Bank is a trading name of BFC Bank Ltd authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority
+Financial Services Register number: 716167.  <br/> BFC Bank Limited Registered in England and Wales, company number 4797759.<br/></small>
+</div>
+
+</div>
+</div>
+</div>
+<script src="../cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<!--Start Cookie Script--> <script type="text/javascript" charset="UTF-8" src="../chs03.cookie-script.com/s/26d4626a5226eaf9c94e60f9c76c4f9e.js"></script> <!--End Cookie Script-->
+<script>
+$('ul li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+
+</script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+<div id="modal" style="display: none; padding: 50px 5vw; max-width: 800px; text-align: center;">
+                <h3>To access your online banking portal please contact your Relationship Manager</h3>
+
+ </div>
+<div id="modal2" style="display: none; padding: 50px 5vw; max-width: 800px; text-align: center;">
+                <h3>Form details to go here</h3>
+
+ </div>
+</body>
+
+<!-- /demo.html , Mon, 21 May 2018 07:28:10 GMT -->
+</html>
