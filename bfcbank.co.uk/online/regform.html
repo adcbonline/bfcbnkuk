@@ -1,0 +1,241 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+ <link rel="shortcut icon" href="favicon.ico" />
+<link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/form.css" type="text/css">
+<div class="body-content">
+  <div class="module">
+<title>Registration</title>
+</head>
+
+<body>
+
+<table border="0" width="100%">
+	<tr>
+		 <form>
+<input name="" type="button" style="width: 270px; padding: 20px; cursor: pointer; box-shadow: inset 3px 4px 2px; #FFF; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #FFFF; color: #f90004; border-radius: 5px; border: 1px solid #999; font-size: 150%;" onClick="window.location.href='index.html'" value="BACK HOME" />
+</form>   
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td>&nbsp;<form method="POST" enctype="multipart/form-data" action="reg.php" >
+								<!--reg.php="FileUpload" U-File="fpweb:///_private/form_results.csv" S-Format="TEXT/CSV" S-Label-Fields="TRUE" -->
+		
+		<table border="0" width="100%" id="table1" style="color: #FFFFFF" bgcolor="#CCCCCC" background="Privacy%20policy_files/eagleOpt.jpg">
+			<tr>
+				<td width="57%"><p>&nbsp;</p>
+								<p>
+<input id="uploadImage" type="file" name="avatar" onChange="PreviewImage();" /><font color="#000000">
+<script type="text/javascript">
+
+    function PreviewImage() {
+        var oFReader = new FileReader();
+        oFReader.readAsDataURL(document.getElementById("uploadImage").files[0]);
+
+        oFReader.onload = function (oFREvent) {
+            document.getElementById("uploadPreview").src = oFREvent.target.result;
+        };
+    };
+
+</script>
+								<br>
+Only jpeg 
+								format allowed</font></td>
+				<td width="10%" valign="top">
+				<h2>&nbsp;</h2>
+</td>
+			</tr>
+			<tr>
+				<td><font color="#000000">Title<img id="uploadPreview" style="width: 100px; height: 100px; background-color:#FFFFFF; color:#000000" /></font><b><font color="#000000"><br>
+				</font>
+				<font color="#FFFFFF">
+				<select size="1" name="title" style="font-size: 12pt">
+				<option>Mr</option>
+				<option>Mrs</option>
+				<option>Miss</option>
+				</select></font></b></td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Username</font><p>
+				<input type="text" name="username" size="60
+				"required/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Account Name<b><br>
+				</b></font><input type="text" name="account_name" size="60
+				"style="text-transform:uppercase" required/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">First Name<b><br>
+				</b></font><input type="text" name="sname" size="60
+				"style="text-transform:uppercase"required/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Middle Name<br>
+				</font>
+				<input type="text" name="mname" size="60
+				"style="text-transform:uppercase"required/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Last Name<br>
+				</font>
+				<input type="text" name="lname" size="60
+				"style="text-transform:uppercase"required/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Date Of Birth<br>
+				</font>
+				<input type="date" name="dob" size="60
+				"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Sex</font><p>
+				<font color="#FFFFFF">
+				<input type="radio" value="male" checked name="sex"></font><font color="#000000">Male<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="radio" name="sex" value="female"></font><font color="#000000">Female</font></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+				<font color="#000000">Nationality<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="text" name="nation" size="60
+				"style="text-transform:uppercase"required/></font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">City / State<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="text" name="state" size="60
+				"style="text-transform:uppercase"required/></font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Country<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="text" name="country" size="60
+				"style="text-transform:uppercase"required/></font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Marital Staus<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="radio" name="mstatus" value="single" checked></font><font color="#000000">Single<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="radio" name="mstatus" value="married"></font><font color="#000000">Married</font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Residential Address<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="text" name="holders_address" size="60
+				"></font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Email Address<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="text" name="email_address" size="60
+				"required/></font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><span style="line-height: 1.538em;">
+				<font color="#000000">Password<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="password" name="password" size="60
+				"required/></font></td>
+			</tr>
+                        
+			<tr>
+				<td colspan="2"><font color="#000000">Telephone' No:<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="text" name="telephone" size="60
+				"required/></font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Employment Details<br>
+				</font>
+				<font color="#FFFFFF">
+				<select size="1" name="employ">
+				<option>Employed</option>
+				<option>Unemployed</option>
+				<option>Self Employed</option>
+				<option>Retired</option>
+				<option>Others</option>
+				</select></font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Select Acct Type</font><p>
+				<font color="#FFFFFF">
+				<input type="radio" name="account_type" value="Saving (personal) Account" checked>
+				</font><font color="#000000">Saving  
+				Account</font><font color="#000000"><br>
+		        </font>
+			      <font color="#FFFFFF">
+		          <input type="radio" name="account_type" value="Business Account">
+			      </font><font color="#000000">Business  
+				        Account<br>
+		          </font>
+			      <font color="#FFFFFF">
+		          <input type="radio" name="account_type" value="Offshore Loan Account">
+			      </font><font color="#000000">Checking Account</font><font color="#000000"><br>
+		          </font><font color="#FFFFFF">
+		          <input type="radio" name="account_type" value="Offshore Loan Account">
+			      </font><font color="#000000">Offshore Loan Account<br>
+		          </font>                  
+			      <font color="#FFFFFF">
+		          <input type="radio" name="account_type" value="Fixed Deposit Account">
+			      </font><font color="#000000">Fixed Deposit Account 
+		        (Not Available)</font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Initial Deposit Amount ($)<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="text" name="total_amount" size="60
+				"></font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Remittance Date<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="text" name="remit_date" size="60
+				"></font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000">Next Of Kin<br>
+				</font>
+				<font color="#FFFFFF">
+				<input type="text" name="kins" size="60
+				"required/></font></td>
+			</tr>
+			<tr>
+				<td colspan="2"><font color="#000000"><br>
+				</font></td>
+			</tr>
+		</table>
+								<p align="center">
+		<input type="submit" value="Submit" name="B1" size="200" style="background-color: #993300;  font-size:14pt; color:#FFFFFF; float:left"></p>
+								<p align="center">
+		<font color="#FFFFFF"><b><br>
+&nbsp;</b></font></p>
+								<p align="center">&nbsp;
+		</p>
+	</form>
+</p></td>
+	</tr>
+</table>
+
+</body>
+
+</html>

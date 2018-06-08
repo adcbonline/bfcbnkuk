@@ -1,0 +1,292 @@
+/*
+  TEXPO Global CSS Styles for HBL
+  Special styles for presenting Texpo website 
+  Some Styles belong to bootstrap and they are over-ridden
+  'HBL' css custom theme designed and built by TEXPO Global code by talha@texpo.com - TJ
+
+  Language Style : English
+  
+/*-- iPhone Fixes --*/
+* {
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  outline: none;
+}
+/*-- iPhone Fixes End --*/
+
+
+*/
+/*==================================================*/
+				SharePoint Classes
+/*==================================================*/
+
+
+a, a:visited { }
+.ms-link, .ms-link:visited {  }
+    
+/*#ms-designer-ribbon {    display: none;}
+
+
+ signin ribbon div  
+.sp-designer-ribbon{ display: none;}*/
+
+input[type=button], input[type=reset], input[type=submit], button {min-width: 3em !important;}
+input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, button:hover {  border-color: #008269 !important;  background-color: #008269 !important;}
+
+.form-input3{border:none !important; background:#f3f3f3 !important; background-color:#f3f3f3 !important;}
+
+input[type=password], input[type=text], input[type=file], select, textarea, .sp-peoplepicker-topLevel, .sp-peoplepicker-topLevelDisabled, .sp-peoplepicker-autoFillContainer, .ms-inputBox
+{
+background-color:#f3f3f3 !important;	}
+
+#s4-bodyContainer {   padding-bottom: 0px !important;}
+
+.ms-srch-sb-border, .ms-srch-sb-border:hover, .ms-srch-sb-borderFocused {   border: 0px !important; }
+input[type=password], input[type=text], input[type=file], select, textarea, .sp-peoplepicker-topLevel, .sp-peoplepicker-topLevelDisabled, .sp-peoplepicker-autoFillContainer, .ms-inputBox {
+	border: 0px !important;
+}
+
+.ms-webpartzone-cell {  margin: auto auto 0px;}
+
+
+/*=====================X xxx X======================*/
+
+
+
+::selection { 	
+	color:#585858;     
+	background-color:#fede4b;	
+	opacity:1;
+	}
+
+::-moz-selection { 	
+	color:#585858;     
+	background-color:#fede4b;	
+	opacity:1;
+	}
+
+html,body {    height: 100%;}
+
+.lang_drpdwn {padding:0px;}
+.lang_drpdwn:hover {  background: #f2f2f2 !important;}
+
+p {
+	    padding: 2px 0px;
+    }
+
+.tooltip > .tooltip-inner {background-color: #008269;}
+.tooltip > .tooltip-arrow { border-bottom-color:#008269;}
+
+.nav-tabs>li>a { color: #008269 !important; border-color: #ddd #ddd #ddd !important; }
+.nav-tabs>li>a:hover { border-bottom: 1px solid #fede4b !important;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {    color: #fff !important;
+    background-color: #008269 !important;}
+
+.media .media-body h2 a span, .media .media-body h2 a:visited { color: #008269 !important; }
+
+.play-button {
+    height: 40px;
+    width: 65px;    
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    position: absolute;
+  top:56px;
+  left:93px;
+}
+
+.play-button:hover {
+    background-color: rgba(0, 130, 105, 0.9);
+}
+
+.play-button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10.5px;
+    left: 24px;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 9.5px 0 9.5px 17px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 1);
+}
+/*
+.play-icon:after {
+    position:absolute;
+    top:0;
+    left:0;
+    content:'';
+    width: 100%;
+    height: 100%;
+    background: url("https://cdn1.iconfinder.com/data/icons/video-controls/32/play-20.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    z-index: 9999;
+}
+*/
+
+/* -----Search Overlay window----- */
+.searchbox { 
+  padding: 10px 0 !important;
+}
+.searchbox .ms-helperText, input.ms-helperText {
+  color: red;
+}
+
+.searchbox input[type=text] {
+	border: 0px solid #ababab;
+	color: #008269 !important;
+	width: 556px;
+	font-family: 'Bliss2-Bold';
+}
+/* ------Search Overlay window /.XXX----- */
+
+.banner_text_bg	{display:inline-block;}
+.btn-banner:hover, .btn-banner:focus	{background: #fbcf01 !important;	}
+
+.media-aliance{min-height: 300px; height: auto; overflow: hidden; border-bottom: 1px solid #dfdfdf;}
+.media-aliance .media-left a{ max-width: 148px; height: auto; overflow: hidden;}
+.media-aliance .media-left a img{ min-width: 143px; height: auto; overflow: hidden;}
+
+.adbox {
+    background: #fff !important;
+    padding: 0px 8px !important;
+}
+.menupersonal > li > a {
+    padding: 0px 11px;
+}
+.yamm .yamm-content {
+    padding: 10px 10px !important;
+}
+
+.carousel-indicators li {
+    border-radius: 0px !important;
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+    background-color: #fff;
+}
+
+    /*
+inspired from http://codepen.io/Rowno/pen/Afykb 
+*/
+#myCarousel .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+#myCarousel .carousel-inner .active {
+  opacity: 1;
+}
+
+#myCarousel .carousel-inner .active.left,
+#myCarousel .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+#myCarousel .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+#myCarousel .carousel-control {
+  z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    #myCarousel .carousel-inner > .item.next,
+    #myCarousel .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    #myCarousel .carousel-inner > .item.prev,
+    #myCarousel .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    #myCarousel .carousel-inner > .item.next.left,
+    #myCarousel .carousel-inner > .item.prev.right,
+    #myCarousel .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+.postbannerbtns .dropdown-menu {left: auto !important; right: auto !important; max-height:320px; overflow-x: hidden; overflow-y: scroll; min-width: 182px !important;}
+.postbannerbtns .dropdown-menu>li>a {white-space: normal !important;}
+
+.postbannerbtns .ul-city {	left: auto !important; right: 0 !important;}
+.postbannerbtns .ul-internetbanking { left: 0 !important; right: auto !important;}
+
+
+/* just for demo purpose */
+    html,
+    body,
+    .carousel,
+    .carousel-inner,
+    .carousel-inner .item {
+      height: 100%;
+    }
+    
+    
+.board-of-director { margin-right: 0px  !important;    margin-left: 0px !important; }
+
+.redirect-content { text-align:center; 
+					min-height:276px;
+					border-style: solid;
+					padding-top: 60px;
+					margin:0px 5px 5px 5px 
+}
+
+.sitemap{ position:relative; list-style:none; padding:0;}
+.sitemap li{font-family: 'Gotham-Bold'; color:#008269; font-size:14px; font-weight:300; }
+.sitemap li a{display:block; font-family: 'Gotham-Book'; color:#585858; font-size:12px; font-weight:300; line-height:22px;}
+.sitemap-hr {	    border-bottom: 1px solid #dfdfdf;}
+
+.hblhelp { 
+  top: 200px !important;
+  left: 15%;
+  height: 152px !important; 
+}
+
+
+@media (max-width: 767px) { 	
+
+ body {
+    padding-top: 0px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+
+    /* body padding for fixed top nav */
+  }
+
+
+.mobileonly {
+  float: right !important;
+  text-align: right;
+  padding-right: 8px;
+}
+input[type=button], input[type=reset], input[type=submit], button {min-width: 2.5em !important;}
+
+.panel-centers>.panel-heading>a {    padding: 5px 30px 5px 5px;}
+
+
+
+}
+
+

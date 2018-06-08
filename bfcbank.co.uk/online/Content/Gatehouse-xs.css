@@ -1,0 +1,73 @@
+@media (max-width: 767px) {
+
+    body {
+        /*font-size: 10px;*/
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    h2, h3 {
+        /*font-size: 14px;
+        font-weight: bold;*/
+    }
+
+    h3 {
+        margin-bottom: 12px;
+    }
+
+    h4, h5 {
+        font-size: 12px;
+    }
+
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    .btn {
+        /*font-size: 10px;*/
+        padding: 3px 6px;
+        /*min-width: 60px;*/
+        /*width: auto;*/
+    }
+
+    .form-control, .input-group-addon {
+        /*font-size: 10px;*/
+        padding: 3px;
+        height: auto;
+    }
+        
+    .nav > li > a,
+    .navbar-nav > li > a {
+        padding: 8px;
+    }
+
+    .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+        padding: 3px;
+        vertical-align: middle;
+    }
+
+    .panel-body {
+        padding: 5px;
+    }
+
+    #messagesToolbar .panel-body {
+        min-height: 33px;
+    }
+}
+
+th.button-container {
+    width: 30px;
+}
+
+@media (max-width: 360px) {
+    .hidden-xxs {
+        display: none;
+    }
+}
+@media (min-width: 361px) {
+    .hidden-xxs {
+        display: table-cell;
+    }
+}

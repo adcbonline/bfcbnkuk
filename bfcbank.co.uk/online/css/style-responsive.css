@@ -1,0 +1,190 @@
+/* Portrait tablet to landscape and desktop - Medium*/ 
+@media (min-width: 992px) and (max-width: 1199px) { 
+.footul{padding:5px;}
+.lang_box{float:right;}
+.navbar-collapse{padding:0}
+.menu > li:first-child a{padding-left:0}
+.menu > li > a{padding:0 5px;}
+.menu > li:last-child {  padding: 0px 0px 0 5px;}
+
+.header{height:auto;}
+
+.menubusiness > li:last-child{  padding: 0px 0px 0 20px;}
+.menubusiness > li > a {  padding: 0px 12px;}
+
+.yamm .dropdown-menu{ max-width:580px; left:auto;}
+
+
+	.menupersonal > li > a{padding:0 5px;}
+	.menupersonal > li:first-child > a{padding-left:0;	}
+	.menupersonal > li:last-child{   padding: 0px 0px 0 8px ;}
+	.menupersonal .dropdown-menu{left:15px !important;}
+
+	.menuislamic > li > a{padding:0 35px;}
+	.menuislamic > li:last-child{   padding: 0px 0px 0 15px ;}
+
+.personalbanner, .businessbanner, .bannercalc, .bannernews{ background-position: left top;}
+
+.mobileonly{display:none !important;} .nomobile{display:block !important;}
+
+}
+ 
+/* Landscape phone to portrait tablet Small */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.header{height:auto;}
+	.lang_box{float:right;}
+	.footul{padding:5px;}
+	.menu > li > a{padding:0 18px;}
+	.banner_text_bg{width:100%;padding: 25px 5px;}
+	
+	.menubusiness > li > a{padding: 0 28px;}
+	.menubusiness > li:first-child > a{padding-left:0;}
+	
+	.menupersonal > li > a{padding:0 18px;}
+	.menupersonal > li:first-child > a{padding-left:0;	}
+	.menupersonal > li:last-child{   padding: 0px 0px 0 15px ;}
+	
+	.menuislamic > li > a{padding:0 50px;}
+
+	
+	.yamm .dropdown-menu{ max-width:580px; left:0;}
+	
+.personalbanner, .businessbanner{ background-position: left top;}
+
+	.list-topgreenbar li{ padding:0 5px;}
+	.list-topgreenbar2 li{ padding:0 5px;}
+.mobileonly{display:none !important;} .nomobile{display:block !important;}
+
+.table-hbl{max-width:100%;}
+
+.media-aliance .media-body{display:block !important; padding:	10px 0; max-width:100%; width: 100%;}
+.media-aliance{padding: 10px 0;  min-height: 350px;}
+.media-aliance .media-left img{max-width:100%;}
+
+.hblhelp { left: 4%; }
+
+}
+	
+/* Landscape phones and down  Xtra Small */
+@media (max-width: 767px) { 	
+
+/* custom sharepoint classes - TJ */
+.ms-srch-sbLarge-fullWidth { width: 84%;}
+.ms-srch-item-path {    width: 100%;}
+.ms-srch-item:hover, .ms-srch-resultHover:hover, .edisc-SearchResultItemContainer:hover {    display: none; }
+
+
+body{width:100%; margin:0px auto;} 
+
+.header{height:auto;}
+.header .container{height:auto; width:100%;}
+.content{background:none;}
+
+.nav-tabs>li { float: none !important;}
+
+.searchbox input[type=text] {
+	width: 100% !important;
+}
+.btn-search {
+	width: 54px !important;
+}
+.footer{height:auto; text-align:center;}
+.mobile-center{text-align:center;}
+.mobile-padding{padding-bottom:20px;}
+.footul{padding:0;}
+.banner_text_bg{display:none;}
+.banner_sidebar{ height:270px; display:none;}
+.banner_fixedheight{display: inline-block;}
+.mobileonly{display:block !important; padding-top:4px; float:left; text-align:right;} .nomobile{display:none !important;}
+
+.bannerarea{	background-image:url(../images/mobile-home-banner.jpg);
+	height:290px ;
+}
+	.personalbanner{ background-image:url(../images/mobile-personal-banner.jpg);}
+	.businessbanner{ background-image:url(../images/mobile-business-banner.jpg);}	
+	.islamicbanner{ background:url(../images/mobile-islamic-banner.jpg) no-repeat left top;}
+	.personalcarloanbanner{ background-image:url(../images/mobile-personal-car-loan-banner.jpg);}
+	.businesscorporatebanner{ background-image:url(../images/mobile-business-corporate-banking-banner.jpg);}
+	.bannerdownloads{ background-image:url(../images/mobile-download-banner.jpg);}
+	.bannerlocator{background-image:url(../images/mobile-atm-locator-banner.jpg);}
+	.bannercalc{background-image:url(../images/mobile-calculator-banner.jpg);}
+	
+		.bannerabout{background-image:url(../images/mobile-aboutus-banner.jpg);}
+		.banneraliance{background-image:url(../images/mobile-aliance-banner.jpg);}
+		.bannerbod{background-image:url(../images/mobile-bod-banner.jpg);}
+		.bannerinvestor{background-image:url(../images/mobile-investor-banner.jpg);}
+		.bannernews{background-image:url(../images/mobile-newsevents-banner.jpg);}
+		.bannercontact{background-image:url(../images/mobile-contact-banner.jpg);}
+		.bannersearch{background-image:url(../images/mobile-search-banner.jpg);}
+
+	
+	
+	.carousel-indicators{display:none;}
+	.onlymobile{display:block !important;}
+	.fill{height:290px;}
+	
+	.landingbanner .banner_sidebar{ height:270px; display:block; float:none !important; margin:10px auto;}
+	.landingbanner .banner_sidebar h2{padding-bottom:5px;}
+	.landingbanner .banner_sidebar hr{margin:10px auto;}
+	.landingbanner .banner_sidebar .insider{}
+
+.table-hbl{max-width:100%;}
+
+.lang_box{text-align:center; padding:16px 0 20px 0; float:right; width:159px;}
+.lang_lbl{margin:0 auto;}
+
+.logo{text-align:center; margin:0px auto;}
+.logo img{margin:0px auto;}
+.icon-bar{background:#fff;}
+.navbar-toggle{ background:#008269; float:none; margin:8px 0; }
+.navbar-header{text-align:left;}
+
+.menu{padding-top:0px;}
+.menu > li{display:block;  border: none; text-align:center;}
+.menu > li > a{line-height: 30px;  height: auto;  padding: 0;}
+.menu > li:last-child{padding:5px 0 10px;}
+.search-box{width: 98%; z-index:999; padding: 10px;  top: 70px;  right: auto;  left: 1%;} 
+.searcharea{width:95%; float:left;}
+.searchclosebtn{width:; float:right; padding-top:2px;}
+.navbar{margin:10px 0;}
+.navbar-collapse{width: 288px;   position: absolute !important;  z-index: 999;  background: rgb(255, 255, 255);}
+
+
+.yamm .yamm-content{padding:10px;}
+
+h1.subhead{max-width:100%;  min-width:200px; width:auto; height:auto; background-repeat:repeat-y; margin-top:20px; text-indent:0; padding-left:5px;}
+
+.mobilepadding{padding-top:20px;}
+.downbar .container-fluid{padding:0 5px;}
+.downsize{text-align:left; padding-left:30px;}
+.sidebar_promotion_links{display:none;}
+
+.locatoryellow{height:auto;}
+
+.col-ritebar{padding:0 15px;}
+.col-leftbar{padding:0 15px;}
+
+.list-topgreenbar li{  padding: 0 8px;}
+
+.topbg .navbar-toggle{  padding: 0;   position: absolute;  z-index: 99;  top: 0;  right: 0;}
+.topbg .navbar-collapse{  left: -252px; top: 30px;}
+.list-topgreenbar2{float:none;}
+.list-topgreenbar2 li { float:none; color:#008269; font-weight:300; font-family: 'Bliss2-Medium';}
+.list-topgreenbar2 li  a{color:#008269 !important;}
+
+.middlefilter{  padding: 20px 15px 0;}
+
+.postbannerbtns, .phonebankingmobile{display:block;}
+
+
+.media-aliance .media-body{display:block !important; padding:	10px 0; max-width:100%; width: 100% !important;}
+.media-aliance{padding: 10px 0;  min-height: 350px;}
+.media-aliance .media-left img{max-width:100%;}
+.locatorarea{padding:20px 10px;}
+
+.board-of-director .dirimg {
+	width: 84px !important;
+}
+
+ }

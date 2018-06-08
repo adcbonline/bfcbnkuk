@@ -1,0 +1,645 @@
+/* Responsive */
+
+.container-fluid
+{
+    background-color: #001744;
+}
+
+
+body
+{
+    font: 12px/1.4 Arial, Helvetica, sans-serif;
+    color: #838688;
+}
+
+ul
+{
+    padding-left: 0px;
+}
+
+    ul.messagelist li.message, ul.portfoliolist li.portfolio, ul.historylist li.historyheader, ul.statementlist li.statementheader, ul.balancelist li.balanceheader, ul.distributionlist li.distributionheader, div.currencygroup
+    {
+        background-color: #E3E5E4;
+        width: 100%;
+        margin-top: 1px;
+        /*list-style: none;*/
+    }
+
+    ul.messagelist li, ul.portfoliolist li, ul.holdinglist li, ul.historylist li, ul.statementlist li, ul.balancelist li, ul.distributionlist li
+    {
+        float: left;
+        list-style: none;
+        margin: 0;
+    }
+
+a, a:visited
+{
+    color: #838688;
+    text-decoration: none;
+}
+
+    a:hover
+    {
+        color: #001744;
+    }
+
+ul.messagelist li div.messagerow, ul.messagelist li div.messageprevious, ul.messagelist li div.messagedate, ul.messagelist li div.messagefrom, ul.portfoliolist li div.portfoliorow, ul.portfoliolist li div.portfoliovalue, ul.portfoliolist li div.portfolioperc, ul.holdinglist li div.holdingname, ul.holdinglist li div.holdingname2, ul.holdinglist li div.holdingmktvalue, ul.holdinglist li div.holdingmktvalue2, ul.holdinglist li div.holdingweight, ul.holdinglist li div.holdingweight2, ul.holdinglist li div.holdingother, ul.holdinglist li div.holdingdistribution, ul.holdinglist li div.holdingsector, ul.holdinglist li div.holdingchangeperc, ul.holdinglist li div.holdingchangeperc2, ul.holdinglist li div.holdingchangeval, ul.holdinglist li div.holdingchangeval2, ul.holdinglist li div.holdingmaturity, ul.holdinglist li div.holdingquantity, ul.holdinglist li div.holdingmktprice, ul.holdinglist li div.holdingcost, ul.holdinglist li div.holdingstartdate, ul.holdinglist li div.holdingrate, ul.historylist li div.historydate, ul.historylist li div.historynote, ul.historylist li div.historyamount, ul.statementlist li div.statementdate, ul.statementlist li div.statementnote, ul.statementlist li div.statementamount, ul.statementlist li div.statementinout, ul.balancelist li div.balanceref, ul.balancelist li div.balancebalance, ul.balancelist li div.balancecurrency, ul.historylist li div.historyquantity, ul.historylist li div.historycurrency, ul.historylist li div.historytype, ul.distributionlist li div.distributiondate, ul.distributionlist li div.distributiondescription, ul.distributionlist li div.distributionamount, ul.distributionlist li div.distributioncurrency
+{
+    float: left;
+}
+
+ul.messagelist li div.messagefrom, ul.portfoliolist li div.portfoliovalue, ul.holdinglist li div.holdingname
+{
+    width: 150px;
+}
+
+ul.messagelist li div.continue, ul.portfoliolist li div.continue
+{
+    background: #E3E5E4 url(images/grey-off.png) center 90% no-repeat;
+    float: right;
+    width: 20px;
+    vertical-align: central;
+    height: 20px;
+}
+
+ul.messagelist li:hover div.continue,
+ul.portfoliolist li:hover div.continue
+{
+    background: #E3E5E4 url(images/blue-off.png) center 90% no-repeat;
+    float: right;
+}
+
+ul.messagelist li div.messagefrom,
+ul.messagelist li div.messagedate,
+ul.portfoliolist li div.portfoliovalue,
+ul.portfoliolist li div.portfolioperc
+{
+    font-size: 0.8em;
+}
+
+h2
+{
+    height: 25px;
+    width: 100%;
+    background-color: #001744;
+    border-top: 1px solid #fff;
+    font-size: 1.1em;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    margin-top: 0px;
+}
+
+.panel-heading h2 {
+    margin-bottom: 0px;
+}
+
+h3
+{
+    color: #001744;
+    font: 18px/1.0 Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+.leftCol
+{
+    margin-bottom: 20px;
+}
+
+    .leftCol ul
+    {
+        margin: 0px;
+        padding: 0 0 0 0;
+        width: 210px;
+        list-style: none;
+    }
+
+    .leftCol li
+    {
+        padding: 0;
+        margin-top: 2px;
+    }
+
+        .leftCol li a:link, .leftCol li a:active, .leftCol li a:visited
+        {
+            text-decoration: none;
+            font-size: 1em;
+            display: block;
+            min-height: 20px;
+            height: auto !important;
+            /*height: 20px;*/
+            padding: 5px 5px 20px 5px;
+            border-top: 2px solid #838688;
+            background: #E3E5E4 url(images/grey-on.png) no-repeat;
+            background-position: 97% 20%;
+        }
+
+        .leftCol li a.selected:link, .leftCol li a.selected:active, .leftCol li a.selected:visited
+        {
+            color: #001744;
+            border-top: 2px solid #001744;
+            background: #E3E5E4 url(images/blue-off.png) no-repeat;
+            background-position: 97% 20%;
+        }
+
+.ui-shadow
+{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.rounded_bottom
+{
+    -moz-border-radius-bottomright: 7px;
+    -webkit-border-bottom-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    -moz-border-radius-bottomleft: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.rounded_top
+{
+    -moz-border-radius-topright: 7px;
+    -webkit-border-top-right-radius: 7px;
+    border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -webkit-border-top-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+#pinViewer
+{
+    height: 30px;
+    width: 220px;
+    color: #838688;
+    font-size: 1.5em;
+    background-color: white;
+    border: solid 1px #838688;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.block_centered
+{
+    margin: 0 auto;
+}
+
+label
+{
+    color: #001744;
+    font-weight: normal;
+    /*width: 80px;*/
+}
+
+input
+{
+    font: 12px/2.0 Arial, Helvetica, sans-serif;
+    padding: .4em;
+    border: 1px solid #B3B3B3;
+}
+
+    input[type="text"], input[type="password"], input[type="email"]
+    {
+        /*width: 78%;*/
+        width: 100%;
+    }
+
+    input[type="button"]
+    {
+        /*margin-left: 82px;*/
+        background: none repeat scroll 0 0 #e3e5e4;
+        border-radius: 7px 7px 7px 7px;
+        color: #838688;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+        height: 35px;
+        line-height: 30px;
+        margin-bottom: 5px;
+        width: 100px;
+        border: 0 none;
+        -webkit-appearance: none;
+        padding: 1px 6px;
+        text-align: center;
+    }
+
+        input[type="button"]:hover
+        {
+            color: #001744;
+        }
+
+.feature-box input[type="button"]
+{
+    background-color: #fff;
+}
+
+/*.navbar-collapse.in
+{
+    background-color: #fff;
+}
+
+    .navbar-collapse.in ul.nav
+    {
+        margin: 0px 0px;
+    }*/
+
+.navbar-collapse ul.securemenu
+{
+    display: none;
+}
+
+.navbar-collapse.in ul.securemenu
+{
+    display: block;
+}
+
+.container .feature-box
+{
+    border-radius: 7px;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: inherit;
+    background-color: #E3E5E4;
+}
+
+.summarychartlegend
+{
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.summarychart, .summarychartlegend
+{
+    /*float: left;*/
+}
+
+.summarychart
+{
+    width: 160px;
+    height: 160px;
+}
+
+ul.legend li.legendrow
+{
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+}
+
+ul.legend:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ul.legend li
+{
+    float: left;
+    list-style: none;
+}
+
+    ul.legend li div.legendcolour
+    {
+        width: 16px;
+    }
+
+    ul.legend li div.legendcolour, ul.legend li div.legendname, ul.legend li div.legendperc, ul.legend li div.legendvalue
+    {
+        float: left;
+        font-size: 0.9em;
+    }
+
+    ul.legend li div.legendname
+    {
+        width: 100px;
+        padding-left: 5px;
+    }
+
+    ul.legend li div.legendperc, ul.legend li div.legendvalue
+    {
+        text-align: right;
+    }
+
+    ul.legend li div.legendperc
+    {
+        width: 40px;
+    }
+
+    ul.legend li div.legendvalue
+    {
+        width: 90px;
+    }
+
+table
+{
+    /*font: 11px/16px Arial, Helvetica, sans-serif;*/
+}
+
+    table th
+    {
+        padding: 5px 1px 5px 0px;
+        border-width: 0px 0px 1px 0px;
+        color: #001744;
+        border-style: dotted;
+        border-color: #838688;
+    }
+
+        table th a
+        {
+            color: #001744;
+        }
+
+    table td
+    {
+        padding: 4px 0px;
+    }
+
+    table tr.alternateRow, table tr.alternateRow td
+    {
+        background-color: #E3E5E4;
+    }
+
+
+    table.table-no-border td
+    {
+        border: none !important;
+    }
+
+.header_with_colour
+{
+    background-color: #001744;
+    color: #fff;
+    font-size: 1.1em;
+    height: 25px;
+    width: 100%;
+}
+
+    .header_with_colour .colour
+    {
+        float: left;
+        height: 25px;
+        width: 20px;
+    }
+
+    .header_with_colour .header
+    {
+        float: left;
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+
+    .header_with_colour .sub-header
+    {
+        float: right;
+        padding-right: 10px;
+        padding-top: 2px;
+    }
+
+.selectable
+{
+    cursor: pointer;
+}
+
+.filterField
+{
+    padding: 5px 0px;
+}
+
+.unreadMessage
+{
+    font-weight: bold;
+}
+
+.my-details-title
+{
+    font-weight: bold;
+}
+
+.fieldcontain span.fieldlabel
+{
+    display: block; 
+    float: left; 
+    width: 60px;
+}
+
+#RememberMyUsernameCheckBox
+{
+    width: 200px;
+}
+
+a.altLink, a.altLink:visited
+{
+    color: #001744;
+}
+
+    a.altLink:hover
+    {
+        color: #838688;
+    }
+
+.formfield span
+{
+    display: block; 
+    float: left; 
+    width: 120px;
+}
+.fieldcontain div.clearField, .formfield div.clearField
+{
+    clear: both;
+    height: 10px;
+    display: block;
+}
+
+.indented
+{
+    margin-left: 10px;
+}
+
+th.button-container {
+    width: 50px;
+}
+
+img.relationship-manager {
+    height: 120px;
+}
+
+#header
+{
+    height: 120px;
+    background: transparent url(images/header.jpg) no-repeat center;
+    background-size: 100%;
+    margin-bottom: 10px;
+}
+
+#headerNavbar {
+    margin-bottom: 0px;
+    border: none;
+}
+
+#logo
+{
+    padding: 20px;
+}
+
+#topSearch
+{
+    padding: 30px 20px;
+}
+
+#titleHolder
+{
+    clear: both;
+}
+
+#headerNavbar #title
+{
+    border-top: 1px dotted #0068A3;
+    margin: 0px;
+}
+
+#headerNavbar #title p
+{
+    padding: 5px 0px 0px 0px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+#header #title
+{
+    border-top: 1px dotted #0068A3;
+    margin: 0px 20px;
+}
+
+#header #title p
+{
+    padding-top: 5px;
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+
+#footer
+{
+    font-size: 0.92em;
+}
+
+#footer #footerLogo,
+#footer #address,
+#footer #contact,
+#footer #terms
+{
+    height: 40px;
+}
+
+#footer #copyright
+{
+    padding-top: 20px; 
+}
+
+#footer #copyright p
+{
+    border-top: 1px dotted #838688;
+    padding-top: 5px; 
+}
+
+#footer a:link, #footer a:active, #footer a:visited
+{
+    color: #838688;
+}
+
+#footer #terms ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#footer #terms ul li
+{
+    display: inline;
+    margin: 0 5px 0 0px;
+}
+
+#topSearch .navbar-nav > li > a,
+#topSearch .navbar-nav > li > span {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 520px) {
+    .currency-group table th#weight,
+    .currency-group table td#weight {
+        display: none;
+    }
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #3679B3;
+}
+
+.navbar-default .navbar-nav > li > a.selected {
+    font-weight: bold;
+}
+
+#contentEditor {
+    height: 300px;
+    overflow: scroll; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #B3B3B3;
+    padding: 5px;
+    outline: none;
+}
+
+#messagesToolbar {
+    margin-bottom: 10px;
+}
+
+#SelectedBeneficiaryFormPrint input
+{
+    color: #001744;
+    padding: 0px;
+    border: 0px;
+    background-color: #FFFFFF;
+}
+#SelectedBeneficiaryFormPrint input:hover {
+    color: #838688;
+    text-decoration: underline;
+}
+
+.relationship-manager-photo {
+    margin-right: 10px;
+}
+
+    .relationship-manager-photo img {
+        max-height: 150px;
+        max-width: 100px;
+        margin-bottom: 50px;
+    }
+
+#forgottenCredentialsLinks {
+    margin-top: 20px;
+}
+
+.dropdown {
+    display: inline;
+    margin-right: 10px;
+}
+
+.exchange-rate {
+    font-size: 0.9em;
+}
+
+.rate-label {
+    margin-top: 20px;
+}
+
+#exchange-rate-selector {
+    margin-bottom: 10px;
+}
